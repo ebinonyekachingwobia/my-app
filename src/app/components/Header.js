@@ -24,7 +24,6 @@ export default function Header() {
   const [header, setHeader] = useState(false);
   const [nav, setNav] = useState(false);
 
-  // Media query for desktop mode
   const desktopMode = useMediaQuery({
     query: '(min-width: 1300px)',
   });
@@ -97,8 +96,8 @@ export default function Header() {
             Why Us
           </Link>
 
-          <Link className="cursor-pointer" to="testimonials" activeClass="active" smooth={desktopMode} spy={true}>
-            Testimonials
+          <Link className="cursor-pointer" to="testimonial" activeClass="active" smooth={desktopMode} spy={true}>
+            Testimonial
           </Link>
 
           <Link className="cursor-pointer" to="contact" activeClass="active" smooth={desktopMode} spy={true}>
