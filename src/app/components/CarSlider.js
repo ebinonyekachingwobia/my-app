@@ -6,7 +6,7 @@ import Image from "next/image";  // Import next/image correctly
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeIn } from "/variants";
-import { BsHandIndexFill } from "react-icons/bs";
+// import { BsHandIndexFill } from "react-icons/bs";
 
 const cars = [
   {
@@ -14,7 +14,7 @@ const cars = [
     name: "Ford Focus",
     price: 29,
     stars: 3.5,
-    image: "/assets/images/carSlider/car01.svg",  // Ensure correct path for images
+    image: "/assets/images/carSlider/car01.svg", // Ensure correct path for images
     info: [
       {
         icon: "/assets/icons/carSlider/gearshift.svg",

@@ -3,7 +3,7 @@
 import React, {useState} from 'react';
 
 // headless ui
-import {Menu, MenuButton, MenuItem} from '@headlessui/react';
+import {Menu} from '@headlessui/react';
 
 // icons
 import {FaMapMarkerAlt} from 'react-icons/fa'

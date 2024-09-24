@@ -49,7 +49,7 @@ export default function Header() {
 
     // Cleanup listener on component unmount
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [setSearchActive]);
 
   console.log(header);
 

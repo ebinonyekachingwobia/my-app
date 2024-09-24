@@ -1,9 +1,9 @@
-import { div } from 'framer-motion/client';
+// import { div } from 'framer-motion/client';
 import DateSelection from './DateSelection';
 import HoursSelection from './HoursSelection';
 import LocationSelection
 from './LocationSelection';
-import { Button } from '@headlessui/react';
+// import { Button } from '@headlessui/react';
 
 
 export default function SearchMobile() {

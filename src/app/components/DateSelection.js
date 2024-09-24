@@ -26,10 +26,10 @@ export default function DateSelection() {
         },
       ]);
   // State for the selected location
-  const [location, setLocation] = useState('Select a date');
+  // const [location, setLocation] = useState('Select a date');
   
   // Example locations array (you can replace this with your data)
-  const locations = ['Location 1', 'Location 2', 'Location 3'];
+  // const locations = ['Location 1', 'Location 2', 'Location 3'];
 
   return (
     <Menu as="div" className="w-full h-full flex xl:flex-row">

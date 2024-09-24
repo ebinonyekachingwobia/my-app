@@ -2,13 +2,13 @@
 
 // next image
 import Image from 'next/image';
-import { Component } from 'react';
+// import { Component } from 'react';
 
 // icons
 import { FaPhone, FaEnvelope } from'react-icons/fa6';
 
 // Components
-import Copyright from './Copyright';
+// import Copyright from './Copyright';
 
 // motion
 import {motion} from 'framer-motion';
